@@ -1,0 +1,4 @@
+program z;
+begin
+fg;
+end.
