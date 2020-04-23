@@ -1,14 +1,17 @@
 #include <iostream>
 #include <string>
+//#include <Windows.h>
 #include <cstdlib>
-#include<locale>
+#include <locale>
 #include "Text.h"
 
 using namespace std;
 
 int main()
 {
-	setlocale(LC_ALL, "RUS");
+	//SetConsoleCP(1251); //нужна библиотека Windows.h
+	//SetConsoleOutputCP(1251);
+	setlocale(LC_ALL, "ru");
 	TText t;
 	string name;
 	cout << "			Правила ввода:" << endl;

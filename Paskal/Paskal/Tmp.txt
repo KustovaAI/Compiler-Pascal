@@ -1,4 +1,6 @@
-program z;
+program t;
+var 
+	a : integer;
 begin
-fg;
+ 	Write(a);
 end.
