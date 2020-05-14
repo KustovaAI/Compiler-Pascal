@@ -13,10 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{7d7c9230-bac8-47d9-b3a5-28624d591703}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Text_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Paskal\Hash1Table.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Paskal\Postfix.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Paskal\Text.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Hierarchy_List_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HashTable_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Postfix_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Paskal\Hash1Table.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Paskal\Hierarchy_List.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Paskal\Postfix.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Paskal\Text.h">
+      <Filter>src</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

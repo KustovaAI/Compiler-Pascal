@@ -1,0 +1,9 @@
+program Example;
+const
+    Write("fd");
+    Pi: double = 3,1415926;
+var
+    num1, num2: integer;	
+    Res, d: double;
+begin
+end.

@@ -1,17 +1,2 @@
-﻿  Text.cpp
-c:\users\chesko\desktop\pascal\compiler-pascal\paskal\paskal\text.cpp(73): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\chesko\desktop\pascal\compiler-pascal\paskal\paskal\text.cpp(83): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\chesko\desktop\pascal\compiler-pascal\paskal\paskal\text.cpp(254): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\chesko\desktop\pascal\compiler-pascal\paskal\paskal\text.cpp(285): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\chesko\desktop\pascal\compiler-pascal\paskal\paskal\text.cpp(294): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\chesko\desktop\pascal\compiler-pascal\paskal\paskal\text.cpp(364): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\chesko\desktop\pascal\compiler-pascal\paskal\paskal\text.cpp(367): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\chesko\desktop\pascal\compiler-pascal\paskal\paskal\text.cpp(449): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\chesko\desktop\pascal\compiler-pascal\paskal\paskal\text.cpp(452): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\chesko\desktop\pascal\compiler-pascal\paskal\paskal\text.cpp(475): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\chesko\desktop\pascal\compiler-pascal\paskal\paskal\text.cpp(549): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\chesko\desktop\pascal\compiler-pascal\paskal\paskal\text.cpp(556): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\chesko\desktop\pascal\compiler-pascal\paskal\paskal\text.cpp(571): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\chesko\desktop\pascal\compiler-pascal\paskal\paskal\text.cpp(336): warning C4101: s: неиспользованная локальная переменная
-c:\users\chesko\desktop\pascal\compiler-pascal\paskal\paskal\text.cpp(528): warning C4101: s: неиспользованная локальная переменная
-  Paskal.vcxproj -> C:\Users\Chesko\Desktop\Pascal\Compiler-Pascal\Paskal\Debug\Paskal.exe
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Pascal.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Paskal.vcxproj -> C:\Pascal\Compiler-Pascal\Paskal\Debug\Paskal.exe

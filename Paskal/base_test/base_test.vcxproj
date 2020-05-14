@@ -52,14 +52,16 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\gtest;..\base</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\gtest;..\Paskal;%(AdditionalLibraryDirectories)</AdditionalIncludeDirectories>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\gtest\debug</AdditionalLibraryDirectories>
-      <AdditionalDependencies>gtest.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\gtest\debug;..\Paskal\Debug;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>gtest.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -83,7 +85,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Paskal\Hash1Table.cpp" />
+    <ClCompile Include="..\Paskal\Postfix.cpp" />
+    <ClCompile Include="..\Paskal\Text.cpp" />
+    <ClCompile Include="HashTable_test.cpp" />
+    <ClCompile Include="Hierarchy_List_test.cpp" />
+    <ClCompile Include="Postfix_test.cpp" />
+    <ClCompile Include="Text_test.cpp" />
     <ClCompile Include="test_main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Paskal\Hash1Table.h" />
+    <ClInclude Include="..\Paskal\Hierarchy_List.h" />
+    <ClInclude Include="..\Paskal\Postfix.h" />
+    <ClInclude Include="..\Paskal\Text.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
