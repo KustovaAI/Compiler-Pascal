@@ -1,1 +1,19 @@
-﻿  Paskal.vcxproj -> D:\настя\АиСД\паскаль2\Compiler-Pascal\Paskal\Debug\Paskal.exe
+﻿  Packal_main.cpp
+  Text.cpp
+d:\настя\аисд\паскаль2\compiler-pascal\paskal\paskal\text.cpp(72): warning C4018: <: несоответствие типов со знаком и без знака
+d:\настя\аисд\паскаль2\compiler-pascal\paskal\paskal\text.cpp(82): warning C4018: <: несоответствие типов со знаком и без знака
+d:\настя\аисд\паскаль2\compiler-pascal\paskal\paskal\text.cpp(253): warning C4018: <: несоответствие типов со знаком и без знака
+d:\настя\аисд\паскаль2\compiler-pascal\paskal\paskal\text.cpp(284): warning C4018: <: несоответствие типов со знаком и без знака
+d:\настя\аисд\паскаль2\compiler-pascal\paskal\paskal\text.cpp(293): warning C4018: <: несоответствие типов со знаком и без знака
+d:\настя\аисд\паскаль2\compiler-pascal\paskal\paskal\text.cpp(363): warning C4018: <: несоответствие типов со знаком и без знака
+d:\настя\аисд\паскаль2\compiler-pascal\paskal\paskal\text.cpp(366): warning C4018: <: несоответствие типов со знаком и без знака
+d:\настя\аисд\паскаль2\compiler-pascal\paskal\paskal\text.cpp(448): warning C4018: <: несоответствие типов со знаком и без знака
+d:\настя\аисд\паскаль2\compiler-pascal\paskal\paskal\text.cpp(451): warning C4018: <: несоответствие типов со знаком и без знака
+d:\настя\аисд\паскаль2\compiler-pascal\paskal\paskal\text.cpp(474): warning C4018: <: несоответствие типов со знаком и без знака
+d:\настя\аисд\паскаль2\compiler-pascal\paskal\paskal\text.cpp(548): warning C4018: <: несоответствие типов со знаком и без знака
+d:\настя\аисд\паскаль2\compiler-pascal\paskal\paskal\text.cpp(555): warning C4018: <: несоответствие типов со знаком и без знака
+d:\настя\аисд\паскаль2\compiler-pascal\paskal\paskal\text.cpp(570): warning C4018: <: несоответствие типов со знаком и без знака
+d:\настя\аисд\паскаль2\compiler-pascal\paskal\paskal\text.cpp(335): warning C4101: s: неиспользованная локальная переменная
+d:\настя\аисд\паскаль2\compiler-pascal\paskal\paskal\text.cpp(527): warning C4101: s: неиспользованная локальная переменная
+  Создание кода...
+  Paskal.vcxproj -> D:\настя\АиСД\паскаль2\Compiler-Pascal\Paskal\Debug\Paskal.exe

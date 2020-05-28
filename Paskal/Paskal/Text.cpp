@@ -9,7 +9,6 @@ TText::TText()
 	count_begin = 0;
 }
 
-//деструктор//
 
 void TText::Read_and_out_file(string filename)		//чтение и вовод на экран содержимого файла
 {

@@ -19,7 +19,6 @@ private:
 	
 public:
 	TText();
-//	~TText();
 	void Read_and_out_file(string filename);			//чтение файла и вывод строк на экран
 	void Enter_line_to_list(string filename, int n);	//занесение строк в список
 	void Line_processing();								//обработка строк

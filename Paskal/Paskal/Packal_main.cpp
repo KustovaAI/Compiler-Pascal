@@ -7,6 +7,10 @@
 
 using namespace std;
 
+//доступные программы:
+//			Paskal.txt - тест 1
+//			Circle.txt - вычисление длины/площади окружности
+//			DotProduct.txt - скал€рное произведение
 int main()
 {
 	//SetConsoleCP(1251); //нужна библиотека Windows.h
@@ -29,7 +33,12 @@ int main()
 		cout << "1 - «агрузить программу из файла " << endl;
 		cout << "2 - ¬вести в консоль" << endl;		
 		cin >> name;
-		if (name == "1") t.Read_and_out_file("Paskal.txt");
+		if (name == "1")
+		{
+			cout << "¬ведите им€ файла " << endl;
+			cin >> name;
+			t.Read_and_out_file(name);
+		}
 		else if (name == "2") t.Enter_Programm();
 		else throw ("Error of enter");
 		t.Line_processing();
