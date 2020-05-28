@@ -23,6 +23,7 @@
     <ProjectGuid>{F6A82001-E226-4B43-AB63-98DA5CF814E4}</ProjectGuid>
     <RootNamespace>Paskal</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <ProjectName>Paskal</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,7 +77,12 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>%(AdditionalLibraryDirectories)</AdditionalIncludeDirectories>
+      <CallingConvention>Cdecl</CallingConvention>
     </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -118,14 +124,12 @@
     <ClInclude Include="Hash1Table.h" />
     <ClInclude Include="Hierarchy_List.h" />
     <ClInclude Include="Postfix.h" />
-    <ClInclude Include="SortArTable.h" />
     <ClInclude Include="Text.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Hash1Table.cpp" />
     <ClCompile Include="Packal_main.cpp" />
     <ClCompile Include="Postfix.cpp" />
-    <ClCompile Include="SortArTable.cpp" />
     <ClCompile Include="Text.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

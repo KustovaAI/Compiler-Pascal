@@ -128,6 +128,30 @@ string TPostfix::Is_Unary_operation(int &i)		//проверка на унарный оператор
 	}
 	return tmp;
 }
+
+string TPostfix::Is_Unary_operation2(int &i)		//проверка на унарный оператор
+{
+	string tmp = "";
+	if ((i < postfix.length() - 1) && (((postfix[i] == 's') && (postfix[i + 1] == 'i') && (postfix[i + 2] == 'n'))
+		|| ((postfix[i] == 'c') && (postfix[i + 1] == 'o') && (postfix[i + 2] == 's'))
+		|| ((postfix[i] == 'c') && (postfix[i + 1] == 't') && (postfix[i + 2] == 'g'))))
+	{
+		tmp += postfix[i];
+		tmp += postfix[i + 1];
+		tmp += postfix[i + 2];
+		i += 2;
+	}
+	else if ((i < postfix.length() - 2) && (((postfix[i] == 't') && (postfix[i + 1] == 'g'))
+		|| ((postfix[i] == 'l') && (postfix[i + 1] == 'n'))
+		|| ((postfix[i] == '+') && (postfix[i + 1] == '+'))
+		|| ((postfix[i] == '-') && (postfix[i + 1] == '-'))))
+	{
+		tmp += postfix[i];
+		tmp += postfix[i + 1];
+		i += 1;
+	}
+	return tmp;
+}
 string TPostfix::Is_mod_or_div(int & i)		//проверка на mod и div
 {
 	string tmp = "";
@@ -310,7 +334,7 @@ double TPostfix::Calculate(THash1Table * table, string _type)
 			i = j;
 			continue;
 		}
-		else if (Is_Unary_operation(i) != "")		//если унарный оператор
+		else if (Is_Unary_operation2(i) != "")		//если унарный оператор
 		{
 			right_op = res.top();		//берём правый операнд
 			res.pop();

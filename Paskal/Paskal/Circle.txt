@@ -1,0 +1,21 @@
+program Example;	
+const
+    Pi: double = 3,1415926;
+var	
+    R, L, S: double;
+begin
+    Write("Эта программа считает длину окружности и её площадь.");
+    Write("  Введите радиус окружности: ");
+    Read(R);
+    if (R < 0) then
+    begin
+        Write("Радиус не может быть отрицательным");
+    end
+    else
+    begin
+	L := 2 * Pi * R;
+	Write("Длина окруж. = ", L);
+	S := Pi * R * R;
+	Write("    Площадь окруж. = ", S);
+    end
+end.

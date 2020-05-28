@@ -1,0 +1,17 @@
+program Example;	
+var	
+    x1, x2, x3: double;
+    y1, y2, y3: double;
+    R : double;
+begin
+    Write("Ёта программа считает скал€рное произведение векторов. ¬ведите последовательно x1 x2 x3: ");
+    Read(x1);
+    Read(x2);
+    Read(x3);
+    Write("¬ведите последовательно y1 y2 y3: ");
+    Read(y1);
+    Read(y2);
+    Read(y3);
+    R := x1 * y1 + x2 * y2 + x3 * y3;
+    Write("–езультат: ", R);
+end.

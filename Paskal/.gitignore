@@ -1,4 +1,4 @@
-# Compiled Object files
+﻿# Compiled Object files
 *.slo
 *.lo
 *.o
@@ -27,4 +27,5 @@
 *.exe
 *.out
 *.app
-/Студенты/
+/.vs/
+/Debug/

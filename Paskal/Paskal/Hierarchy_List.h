@@ -39,7 +39,7 @@ public:
 		link<T> *p = new link<T>;		
 		ListLen = 0;
 	}
-/*	деструктор*/
+
 
 	bool Is_Empty();						//проверка на пустоту
 	void Set_check(int _c);					//установка check

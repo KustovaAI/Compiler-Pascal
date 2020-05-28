@@ -9,7 +9,6 @@ TText::TText()
 	count_begin = 0;
 }
 
-//деструктор//
 
 void TText::Read_and_out_file(string filename)		//чтение и вовод на экран содержимого файла
 {
@@ -282,10 +281,20 @@ void TText::Line_processing()				//обработка строк
 		tmp = "";
 		j = 0;
 		str = list.Get_Current_Line();		//читаем строку	
-		while ((keywords.Search(tmp) == nullptr) && (variables.Search(tmp) == nullptr) && (j < str.length()))	//читаем символы
+		while ((keywords.Search(tmp) == nullptr) && (j < str.length())) //читаем символы
 		{
-			if ((str[j] != ' ') && (str[j] != '\t')) tmp+= str[j];
+			if ((str[j] != ' ') && (str[j] != '\t')) tmp += str[j];
 			j++;
+		}
+		if (keywords.Search(tmp) == nullptr) //если не нашли слово в ключевых
+		{
+			tmp = "";
+			j = 0;
+			while ((variables.Search(tmp) == nullptr) && (j < str.length())) //читаем символы
+			{
+				if ((str[j] != ' ') && (str[j] != '\t')) tmp += str[j];
+				j++;
+			}
 		}
 		//const--------------------
 		if (tmp == "const")
